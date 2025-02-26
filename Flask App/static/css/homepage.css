@@ -1,0 +1,204 @@
+body {
+    background-image: url('https://www.hdwallpapers.in/download/beautiful_green_grass_field_under_blue_and_white_cloudy_sky_during_daytime_4k_hd_nature-3840x2160.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: fixed; /* Keeps the header fixed at the top */
+    top: 15px;
+    left: 30px;
+    box-sizing: border-box;
+    z-index: 1000; /* Ensures the header is above other content */
+    display: flex; /* Flexbox for aligning content */
+    align-items: center; /* Centers content vertically */
+    background-color: #2c3e50;
+    height: 60px;
+    width: 240px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+#website-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0; /* Removes any default margins */
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    text-transform: uppercase;
+}
+
+.large-letter {
+    font-size: 48px; /* Larger font size for the "F" */
+}
+
+#h2 {
+    font-family: "Poppins",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    overflow: hidden; /* Ensures the text is hidden until revealed */
+    white-space: nowrap; /* Keeps the text on a single line */
+    margin: 0 auto; /* Center the text */
+    letter-spacing: 2px; /* Adjust spacing between letters */
+    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 
+    1.5px 1.5px 0 rgb(44, 62, 80), 
+    -1.5px -1.5px 0 rgb(44, 62, 80), 
+    -1.5px 1.5px 0 rgb(44, 62, 80), 
+    1.5px -1.5px 0 rgb(44, 62, 80);
+}
+
+/* Typing effect */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.links {
+    display: flex;
+    flex-direction: row; /* Horizontal layout for links */
+    gap: 40px; /* Increased space between link containers */
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 20px; /* Space from the top of the viewport */
+}
+
+.links-container {
+    width: 400px;
+    height: 200px; /* Adjusted to match the height of links */
+    background-color: rgba(26, 163, 109, 0.4); 
+    display: flex;
+    justify-content: center; /* Center links horizontally */
+    align-items: flex-start; /* Align items to the top of the container */
+    padding-top: 15px; /* Add padding to push content down */
+    box-sizing: border-box; /* Include padding in width and height calculations */
+    border-radius: 8px;
+    position: relative; /* Allows positioning of child elements */
+}
+
+#a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; /* Adjust font size if needed */
+    color: white;
+    background-color: rgb(26, 163, 109);
+    border-radius: 8px;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+    width: 360px;
+    height: 100px; 
+    text-decoration: none; 
+    box-sizing: border-box;
+    font-weight: bold; 
+    border: solid #178a5c;
+}
+
+#a1:hover {
+    background-color: #178a5c; /* Darker shade on hover */
+}
+
+#a2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; /* Adjust font size if needed */
+    color: white;
+    background-color: #8ee53f;
+    border-radius: 8px;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+    width: 360px;
+    height: 100px; 
+    text-decoration: none; 
+    box-sizing: border-box; 
+    font-weight: bold;
+    border: solid #7bcc37;
+}
+
+#a2:hover {
+    background-color: #7bcc37; /* Darker shade on hover */
+}
+
+#a3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; /* Adjust font size if needed */
+    color: white;
+    background-color: #32cd32;
+    border-radius: 8px;
+    text-align: center; 
+    transition: background-color 0.3s ease;
+    width: 360px;
+    height: 100px; 
+    text-decoration: none; 
+    box-sizing: border-box;
+    font-weight: bold; 
+    border: solid #2ab32a;
+}
+
+#a3:hover {
+    background-color: #2ab32a; /* Darker shade on hover */
+}
+
+#text-links-container1 {
+    position: absolute; /* Position text absolutely within the container */
+    left: 200px; /* Distance from the bottom of the container */
+    margin-top: 130px;
+    transform: translateX(-50%); /* Adjust to center text */
+    text-align: center; /* Center text inside the container */
+    color: white; /* Adjust color if needed */
+    font-size: 23px; /* Adjust font size if needed */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    font-weight: 700;
+    text-shadow: 0.8px 0.8px 0 #2c3e50, -0.8px -0.8px 0 #2c3e50, 
+    -0.8px 0.8px 0 #2c3e50, 0.8px -0.8px 0 #2c3e50;
+}
+
+#text-links-container2 {
+    position: absolute; /* Position text absolutely within the container */
+    left: 202px; /* Distance from the bottom of the container */
+    margin-top: 130px;
+    transform: translateX(-50%); /* Adjust to center text */
+    text-align: center; /* Center text inside the container */
+    color: white; /* Adjust color if needed */
+    font-size: 23px; /* Adjust font size if needed */
+    text-wrap: nowrap;
+    font-weight: 700;
+    text-shadow: 0.8px 0.8px 0 #2c3e50, -0.8px -0.8px 0 #2c3e50, 
+    -0.8px 0.8px 0 #2c3e50, 0.8px -0.8px 0 #2c3e50;
+}
+
+#text-links-container3 {
+    position: absolute; /* Position text absolutely within the container */
+    left: 200px; /* Distance from the bottom of the container */
+    margin-top: 130px;
+    transform: translateX(-50%); /* Adjust to center text */
+    text-align: center; /* Center text inside the container */
+    color: white; /* Adjust color if needed */
+    font-size: 23px; /* Adjust font size if needed */
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    font-weight: 700;
+    text-shadow: 0.8px 0.8px 0 #2c3e50, -0.8px -0.8px 0 #2c3e50, 
+    -0.8px 0.8px 0 #2c3e50, 0.8px -0.8px 0 #2c3e50;
+}

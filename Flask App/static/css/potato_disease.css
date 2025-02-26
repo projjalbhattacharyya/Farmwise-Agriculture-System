@@ -1,0 +1,109 @@
+/* General body styles */
+body {
+    background-image: url('https://wallpapers.com/images/hd/golden-wheat-field-under-blue-sky-x6e974qti0gy2nut.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #2c3e50; /* Darker shade for heading */
+    background-color: rgb(255, 255, 255, 0.5);
+    height : 45px;
+    width:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+/* Form container styles */
+form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for form */
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    width: 600px; /* Max width for larger screens */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items inside the form */
+}
+
+
+/* Form element styles */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+input[type="file"] {
+    width: 100%; /* Make the file input width full */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Result text styles */
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 640px;
+    background-color:rgb(245, 222, 179, 0.9);
+    margin-top: 30px;
+    font-size: 32px;
+    color: black; /* Gold color for result text */
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    /* Simulating text border using text-shadow */
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 
+    -1px 1px 0 black, 1px -1px 0 black;
+}
+
+#upload-text {
+    color: black;
+}

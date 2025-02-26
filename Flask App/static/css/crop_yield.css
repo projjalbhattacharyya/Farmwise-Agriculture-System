@@ -1,0 +1,82 @@
+body {
+    background-color: #f0f0f0; /* Light grey background for better contrast */
+    background-image: url('https://wallpapers.com/images/hd/golden-wheat-field-under-blue-sky-x6e974qti0gy2nut.jpg');
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark grey text color for readability */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: #2c3e50; /* Darker shade for heading */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for form */
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    width: 400px; /* Max width for larger screens */
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555; /* Slightly lighter grey for labels */
+}
+
+select, input[type="number"] {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db; /* Blue background for button */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Result text styles */
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 440px;
+    background-color:rgb(245, 222, 179, 0.9);
+    margin-top: 10px;
+    font-size: 32px;
+    color: black; /* Gold color for result text */
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    /* Simulating text border using text-shadow */
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 
+    -1px 1px 0 black, 1px -1px 0 black;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}">
+</head>
+<body>
+    <header>
+        <div id="website-name"><span class="large-letter">F</span>IELDWISE</div>
+    </header>
+    <h1 id="h2">Welcome to the Agriculture Prediction System</h1>
+        <div class="links">
+            <div class="links-container">
+                <a href="/crop_yield" id="a1">Crop Yield Prediction</a>
+                <p id="text-links-container1">Predict total yield for a year.</p>
+            </div>
+            <div class="links-container">
+                <a href="/crop_recommend" id="a2">Crop Recommendation</a>
+                <p id="text-links-container2">Get recommendations for crops.</p>
+            </div>
+            <div class="links-container">
+                <a href="/potato_disease" id="a3">Potato Disease Classification</a>
+                <p id="text-links-container3">Predict the disease from leaf.</p>
+            </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Disease Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/potato_disease.css') }}">
+</head>
+<body>
+    <h1>Potato Disease Classification</h1>
+    <form action="/potato_disease" method="POST" enctype="multipart/form-data">
+        <label for="image" id="upload-text">Upload Image:</label>
+        <input type="file" name="image" accept="image/*" required><br>
+        <button type="submit">Predict Disease</button>
+    </form>
+
+    {% if result %}
+        <h2>{{ result }}</h2>
+    {% endif %}
+</body>
+</html>

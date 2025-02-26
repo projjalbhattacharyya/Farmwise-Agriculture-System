@@ -1,0 +1,88 @@
+/* General body styles */
+body {
+    background-image: url('https://wallpapers.com/images/hd/golden-wheat-field-under-blue-sky-x6e974qti0gy2nut.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+    color: #2c3e50; /* Darker shade for heading */
+}
+
+form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for form */
+    display: inline-block;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    width: 400px; /* Max width for larger screens */
+    border: 2px solid black; 
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #555; /* Slightly lighter grey for labels */
+}
+
+input[type="number"], select {
+    width: 100%; /* Full width for inputs and selects */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Result text styles */
+h2 {
+    height: 50px;
+    width: 440px;
+    background-color:rgb(245, 222, 179, 0.9);
+    margin-top: 10px;
+    font-size: 35px;
+    color: black; /* Gold color for result text */
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    /* Simulating text border using text-shadow */
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black, 
+    -1px 1px 0 black, 1px -1px 0 black;
+}
