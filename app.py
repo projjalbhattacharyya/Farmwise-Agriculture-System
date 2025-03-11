@@ -9,6 +9,11 @@ from skimage.feature import hog  # For HOG feature extraction
 import altair as alt
 import pandas as pd
 
+# Set page configuration
+st.set_page_config(page_title="Fieldwise - Smart Agriculture System",
+                   layout="wide",
+                   page_icon="🌿")
+
 # Load pre-trained models
 MODEL_DIR = "models/"
 crop_model_path = os.path.join(MODEL_DIR, "crop_recommend.pkl")
